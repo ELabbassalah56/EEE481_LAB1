@@ -1,6 +1,6 @@
 # EEE481_LAB1
 Basics of BER calculations and channel models
-[![Build Status](https://youtu.be/zBtf8aqwrJE)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://youtu.be/zBtf8aqwrJE)
 
 # Introduction
 * This is the first experiment in the Digital Communications Lab. In this experiment, we study the most basic method for assessing the performance of digital communication   systems, the Bit Error Rate. We also study simple models for communication channels and their effect on the communication system from the perspective of bit error rate.
