@@ -1,6 +1,6 @@
 # EEE481_LAB1
-# [![comm_sys](https://www.tutorialspoint.com/digital_communication/images/digital_communication.jpg)]
-* Figure 1 An example of a digital communication system 
+# ![comm_sys](https://www.tutorialspoint.com/digital_communication/images/digital_communication.jpg)
+ Figure 1 An example of a digital communication system 
 # [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://youtu.be/zBtf8aqwrJE)
 * Basics of BER calculations and channel models
 # Introduction
