@@ -14,7 +14,7 @@ sample_seq = zeros(size(bit_seq*fs));
 %%% WRITE YOUR CODE FOR PART 2 HERE
 for i_count = 1 : length(bit_seq)
   for j_count = 1 : fs
-    sample_seq((i_count - 1) * fs + j_count) = bit_seq(i_count)
+    sample_seq((i_count - 1) * fs + j_count) = bit_seq(i_count);
   end
 end
 %%%

@@ -9,7 +9,7 @@
 
 %% Simulation parameters
 
-N_bits = 10; % Total number of bits
+N_bits = 10000; % Total number of bits
 p      = 0.2;   % Channel parameter (probability of bit flipping)
 
 %% Part 1: BER for simple BSC channel

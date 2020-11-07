@@ -23,22 +23,24 @@ switch case_type
        
         %%%
     case 'part_2'
-        %%% WRITE YOUR CODE FOR PART 2 HERE
-        flagOfOnes =  0;
-        for i_count = 1 : length(rec_sample_seq)
-          if (rec_sample_seq(i_count) == 1)
-            flagOfOnes=flagOfOnes+1;
-          end
-          if (mod(i_count, fs) == 0)
-            if (flagOfOnes >= fs / 2)
-              rec_bit_seq(i_count / fs) = bitxor(rec_sample_seq(i_count),zeros(1,length(rec_sample_seq(i_count)/fs)));
+        %%% WRITE YOUR CODE FOR PART 2 HERE     
+        i_count = 1;
+        flag = 0;
+        while(i_count <= length(rec_sample_seq))
+           i_count = i_count+1;  
+           if (rec_sample_seq(i_count-1) == 0)
+            flag=flag+1;
+           end
+           if(mod(i_count,fs) == 0)
+            if (flag >= fs / 2)
+                rec_bit_seq(i_count / fs) = 0;
             else
-              rec_bit_seq(i_count / fs) = bitxor(rec_sample_seq(i_count),zeros(1,length(rec_sample_seq(i_count)/fs)));
+                rec_bit_seq(i_count / fs) = 1;
             end
-            flagOfOnes = 0
-          end
+            flag =0;
+           end
+          
         end
-       
         %%%
     case 'part_3'
         %%% WRITE YOUR CODE FOR PART 3 HERE
