@@ -16,3 +16,6 @@
   [update reciver ]
 * part4
   [create comm_system which fs varience with ber ]
+### Guide to Git:
+# take Repo in Your Pc
+* git colon https://github.com/ELabbassalah56/EEE481_LAB1.
